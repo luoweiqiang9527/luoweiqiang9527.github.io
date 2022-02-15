@@ -1,10 +1,10 @@
 ---
-title:       "An Example Post"
+title:       "Hugo工程个性化配置"
 subtitle:    ""
 description: ""
-date:        2018-06-04
-author:      ""
+date:        2022-02-15
+author:      "洛维奇"
 image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+tags:        ["hugo", "github"]
+categories:  ["Help" ]
 ---

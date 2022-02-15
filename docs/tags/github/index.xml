@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 洛维奇</title>
-    <link>https://luoweiqiang9527.github.io/post/</link>
-    <description>Recent content in Posts on 洛维奇</description>
+    <title>github on 洛维奇</title>
+    <link>https://luoweiqiang9527.github.io/tags/github/</link>
+    <description>Recent content in github on 洛维奇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://luoweiqiang9527.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://luoweiqiang9527.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo工程个性化配置</title>
       <link>https://luoweiqiang9527.github.io/post/hugo-help/</link>
