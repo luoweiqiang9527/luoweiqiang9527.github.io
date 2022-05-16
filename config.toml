@@ -1,5 +1,5 @@
 baseURL = 'https://luoweiqiang9527.github.io/'
 languageCode = 'en-us'
 title = '洛维奇'
-theme = 'ananke'
+theme = 'geekblog'
 publishdir = "docs"
