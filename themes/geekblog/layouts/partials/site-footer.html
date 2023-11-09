@@ -5,7 +5,7 @@
         {{ with (.Site.GetPage "home").OutputFormats.Get "atom" }}
           <span class="gblog-footer__item gblog-footer__item--row">
             <svg class="gblog-icon gblog_rss_feed"><use xlink:href="#gblog_rss_feed"></use></svg>
-            <a href="{{ .Permalink | relURL }}" class="gblog-footer__link">Atom Feed</a>
+            <a href="{{ .Permalink | relURL }}" class="gblog-footer__link">订阅</a>
           </span>
         {{ end }}
         {{ if .Site.Data.menu.extra.footer }}
