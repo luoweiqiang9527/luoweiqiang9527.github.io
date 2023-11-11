@@ -1,5 +1,7 @@
 baseURL = 'https://luoweiqiang9527.github.io/'
 languageCode = 'zh-cn'
+#中文字数统计问题
+hasCJKLanguage = true
 title = '洛维奇'
 theme = 'geekblog'
 
