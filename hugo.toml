@@ -5,6 +5,7 @@ hasCJKLanguage = true
 title = '洛维奇'
 theme = 'geekblog'
 
+#复数化列表标题
 pluralizeListTitles = false
 
 # Geekblog required configuration

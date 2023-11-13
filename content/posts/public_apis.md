@@ -23,14 +23,14 @@ draft: false
 ## 目录
 A | B | C | D | E | F | 
 |---|---|---|---|---|---|
-| [动物](#动物)| [Anime](#anime)| [Anti-Malware](#anti-malware)| [Art & Design](#art--design)| [Authentication & Authorization](#authentication--authorization) | [Blockchain](#blockchain) |
-| [Books](#books)| [Business](#business)| [Calendar](#calendar)| [Cloud Storage & File Sharing](#cloud-storage--file-sharing)| [Continuous Integration](#continuous-integration)| [Cryptocurrency](#cryptocurrency)|
+| [动物](#动物)| [Anime](#anime)| [反恶意软件](#反恶意软件)| [Art & Design](#art--design)| [Authentication & Authorization](#authentication--authorization) | [Blockchain](#blockchain) |
+| [书籍](#书籍)| [Business](#business)| [Calendar](#calendar)| [Cloud Storage & File Sharing](#cloud-storage--file-sharing)| [Continuous Integration](#continuous-integration)| [Cryptocurrency](#cryptocurrency)|
 | [Currency Exchange](#currency-exchange)| [Data Validation](#data-validation)| [Development](#development)| [Dictionaries](#dictionaries)| [Documents & Productivity](#documents--productivity)| [Email](#email)|
 | [Entertainment](#entertainment)| [Environment](#environment)| [Events](#events)| [Finance](#finance)| [Food & Drink](#food--drink)| [Games & Comics](#games--comics)|
 | [Geocoding](#geocoding)| [Government](#government)| [Health](#health)| [Jobs](#jobs)| [Machine Learning](#machine-learning)| [Music](#music)|
 | [News](#news)| [Open Data](#open-data)| [Open Source Projects](#open-source-projects)| [Patent](#patent)| [Personality](#personality)| [Phone](#phone)|
-| [Photography](#photography)| [Programming](#programming)| [Science & Math](#science--math)| [Security](#security)| [Shopping](#shopping)| [Social](#social)|
-| [Sports & Fitness](#sports--fitness)| [Test Data](#test-data)| [Text Analysis](#text-analysis)| [Tracking](#tracking)| [Transportation](#transportation)| [URL Shorteners](#url-shorteners)|
+| [Photography](#photography)| [Programming](#programming)| [Science & Math](#science--math)| [Security](#security)| [Shopping](#shopping)| [社交媒体](#社交媒体)|
+| [Sports & Fitness](#sports--fitness)| [Test Data](#test-data)| [Text Analysis](#text-analysis)| [Tracking](#tracking)| [Transportation](#transportation)| [短链接](#短链接)|
 | [Vehicle](#vehicle)| [视频](#视频)| [Weather](#weather)||||
 
 ### 动物
@@ -89,7 +89,7 @@ A | B | C | D | E | F |
 | [Waifu.pics](https://waifu.pics/docs) | Image sharing platform for anime images | No | Yes | No |
 
 **[⬆ 跳转至目录](#目录)**
-### Anti-Malware
+### 反恶意软件
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [AbuseIPDB](https://docs.abuseipdb.com/) | IP/domain/URL reputation | `apiKey` | Yes | Unknown |
@@ -162,14 +162,9 @@ A | B | C | D | E | F |
 | [Watchdata](https://docs.watchdata.io) | Provide simple and reliable API access to Ethereum blockchain | `apiKey` | Yes | Unknown |
 
 **[⬆ 跳转至目录](#目录)**
-### Books
+### 书籍
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [A Bíblia Digital](https://www.abibliadigital.com.br/en) | Do not worry about managing the multiple versions of the Bible | `apiKey` | Yes | No |
-| [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | `apiKey` | Yes | Yes |
-| [Bhagavad Gita](https://bhagavadgita.io/api) | Bhagavad Gita text | `OAuth` | Yes | Yes |
-| [Bhagavad Gita telugu](https://gita-api.vercel.app) | Bhagavad Gita API in telugu and odia languages | No | Yes | Yes |
-| [Bible-api](https://bible-api.com/) | Free Bible API with multiple languages | No | Yes | Yes |
 | [British National Bibliography](http://bnb.data.bl.uk/) | Books | No | No | Unknown |
 | [Crossref Metadata Search](https://github.com/CrossRef/rest-api-doc) | Books & Articles Metadata | No | Yes | Unknown |
 | [Ganjoor](https://api.ganjoor.net) | Classic Persian poetry works including access to related manuscripts, recitations and music tracks | `OAuth` | Yes | Yes |
@@ -1376,7 +1371,7 @@ A | B | C | D | E | F |
 | [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs/) | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | `apiKey` | Yes | Yes |
 
 **[⬆ 跳转至目录](#目录)**
-### Social
+### 社交媒体
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [4chan](https://github.com/4chan/4chan-API) | Simple image-based bulletin board dedicated to a variety of topics | No | Yes | Yes |
@@ -1390,7 +1385,6 @@ A | B | C | D | E | F |
 | [Doge-Meme](https://api.doge-meme.lol/docs) | Top meme posts from r/dogecoin which include 'Meme' flair | No | Yes | Yes |
 | [Facebook](https://developers.facebook.com/) | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | Unknown |
 | [Foursquare](https://developer.foursquare.com/) | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | Unknown |
-| [Fuck Off as a Service](https://www.foaas.com) | Asks someone to fuck off | No | Yes | Unknown |
 | [Full Contact](https://docs.fullcontact.com/) | Get Social Media profiles and contact Information | `OAuth` | Yes | Unknown |
 | [HackerNews](https://github.com/HackerNews/API) | Social news for CS and entrepreneurship | No | Yes | Unknown |
 | [Hashnode](https://hashnode.com) | A blogging platform built for developers | No | Yes | Unknown |
@@ -1597,7 +1591,7 @@ A | B | C | D | E | F |
 | [Velib metropolis, Paris, France](https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole) | Velib Open Data API | No | Yes | No |
 
 **[⬆ 跳转至目录](#目录)**
-### URL Shorteners
+### 短链接
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [1pt](https://github.com/1pt-co/api/blob/main/README.md) | A simple URL shortener | No | Yes | Yes |

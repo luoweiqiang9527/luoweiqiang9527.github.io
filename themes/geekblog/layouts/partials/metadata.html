@@ -5,15 +5,14 @@
       {{ if .Lastmod.After (.Date.AddDate 0 0 1) }}
         Updated on
       {{ end }}
-      {{ .Lastmod.Format "Jan 2, 2006" }}
+      {{ .Lastmod.Format "2006-01-02 15:04" }}
     </time>
   </span>
 </span>
 
 <span class="flex align-center no-wrap gblog-post__meta--readtime">
   <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
-  <span class="gblog-post__tag">预计{{ .ReadingTime }} 分钟</span>
-  <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
+  <span class="gblog-post__tag">预计{{ .ReadingTime }} 分钟，</span>
   <span class="gblog-post__tag">总计：{{ .WordCount }}字</span>
 </span>
 
