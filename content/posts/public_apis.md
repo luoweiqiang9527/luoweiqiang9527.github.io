@@ -2,6 +2,7 @@
 title: "公共接口"
 date: 2023-11-09T15:05:15+08:00
 draft: false
+tags: ["api"]
 ---
 
 <div align="center">
@@ -24,13 +25,13 @@ draft: false
 A | B | C | D | E | F | 
 |---|---|---|---|---|---|
 | [动物](#动物)| [Anime](#anime)| [反恶意软件](#反恶意软件)| [Art & Design](#art--design)| [Authentication & Authorization](#authentication--authorization) | [Blockchain](#blockchain) |
-| [书籍](#书籍)| [Business](#business)| [Calendar](#calendar)| [Cloud Storage & File Sharing](#cloud-storage--file-sharing)| [Continuous Integration](#continuous-integration)| [Cryptocurrency](#cryptocurrency)|
+| [书籍](#书籍)| [Business](#business)| [Calendar](#calendar)| [Cloud Storage & File Sharing](#cloud-storage--file-sharing)| [持续集成](#持续集成)| [加密数字货币](#加密数字货币)|
 | [Currency Exchange](#currency-exchange)| [Data Validation](#data-validation)| [Development](#development)| [Dictionaries](#dictionaries)| [Documents & Productivity](#documents--productivity)| [Email](#email)|
-| [Entertainment](#entertainment)| [Environment](#environment)| [Events](#events)| [Finance](#finance)| [Food & Drink](#food--drink)| [Games & Comics](#games--comics)|
-| [Geocoding](#geocoding)| [Government](#government)| [Health](#health)| [Jobs](#jobs)| [Machine Learning](#machine-learning)| [Music](#music)|
+| [娱乐](#娱乐)| [Environment](#environment)| [Events](#events)| [Finance](#finance)| [Food & Drink](#food--drink)| [Games & Comics](#games--comics)|
+| [地理编码](#地理编码)| [Government](#government)| [Health](#health)| [Jobs](#jobs)| [Machine Learning](#machine-learning)| [Music](#music)|
 | [News](#news)| [Open Data](#open-data)| [Open Source Projects](#open-source-projects)| [Patent](#patent)| [Personality](#personality)| [Phone](#phone)|
-| [Photography](#photography)| [Programming](#programming)| [Science & Math](#science--math)| [Security](#security)| [Shopping](#shopping)| [社交媒体](#社交媒体)|
-| [Sports & Fitness](#sports--fitness)| [Test Data](#test-data)| [Text Analysis](#text-analysis)| [Tracking](#tracking)| [Transportation](#transportation)| [短链接](#短链接)|
+| [摄影](#摄影)| [Programming](#programming)| [Science & Math](#science--math)| [Security](#security)| [Shopping](#shopping)| [社交媒体](#社交媒体)|
+| [Sports & Fitness](#sports--fitness)| [Test Data](#test-data)| [文本分析](#文本分析)| [Tracking](#tracking)| [Transportation](#transportation)| [短链接](#短链接)|
 | [Vehicle](#vehicle)| [视频](#视频)| [Weather](#weather)||||
 
 ### 动物
@@ -258,7 +259,7 @@ A | B | C | D | E | F |
 | [Web3 Storage](https://web3.storage/) | File Sharing and Storage for Free with 1TB Space | `apiKey` | Yes | Yes |
 
 **[⬆ 跳转至目录](#目录)**
-### Continuous Integration
+### 持续集成
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Azure DevOps Health](https://docs.microsoft.com/en-us/rest/api/resourcehealth) | Resource health helps you diagnose and get support when an Azure issue impacts your resources | `apiKey` | No | No |
@@ -269,7 +270,7 @@ A | B | C | D | E | F |
 | [Travis CI](https://docs.travis-ci.com/api/) | Sync your GitHub projects with Travis CI to test your code in minutes | `apiKey` | Yes | Unknown |
 
 **[⬆ 跳转至目录](#目录)**
-### Cryptocurrency
+### 加密数字货币
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [0x](https://0x.org/api) | API for querying token and pool stats across various liquidity pools | No | Yes | Yes |
@@ -571,7 +572,7 @@ A | B | C | D | E | F |
 | [Verifier](https://verifier.meetchopra.com/docs#/) | Verifies that a given email is real | `apiKey` | Yes | Yes |
 
 **[⬆ 跳转至目录](#目录)**
-### Entertainment
+### 娱乐
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [chucknorris.io](https://api.chucknorris.io) | JSON API for hand curated Chuck Norris jokes | No | Yes | Unknown |
@@ -796,11 +797,11 @@ A | B | C | D | E | F |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
 
 **[⬆ 跳转至目录](#目录)**
-### Geocoding
+### 地理编码
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Abstract IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | Geolocate website visitors from their IPs | `apiKey` | Yes | Yes |
-| [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia is an open source REST API for geographical data that uses GRASS GIS | `apiKey` | Yes | Unknown |
+| [Abstract IP Geolocation](https://www.abstractapi.com/ip-geolocation-api) | 根据网站访问者的ip对其进行地理定位 | `apiKey` | Yes | Yes |
+| [Actinia Grass GIS](https://actinia.mundialis.de/api_docs/) | Actinia是一个开源的REST API，用于使用GRASS GIS的地理数据 | `apiKey` | Yes | Unknown |
 | [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | Get all administrative divisions of a country | No | Yes | Yes |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | Address database of France, geocoding and reverse | No | Yes | Unknown |
 | [Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1/?full=true) | IP Geolocation API. Collecting data from multiple sources | No | Yes | Unknown |
@@ -844,7 +845,7 @@ A | B | C | D | E | F |
 | [ip-api](https://ip-api.com/docs) | Find location with IP address or domain | No | No | Unknown |
 | [IP2Location](https://www.ip2location.com/web-service/ip2location) | IP geolocation web service to get more than 55 parameters | `apiKey` | Yes | Unknown |
 | [IP2Proxy](https://www.ip2location.com/web-service/ip2proxy) | Detect proxy and VPN using IP address | `apiKey` | Yes | Unknown |
-| [ipapi.co](https://ipapi.co/api/#introduction) | Find IP address location information | No | Yes | Yes |
+| [ipapi.co](https://ipapi.co/api/#introduction) | 查找IP地址位置信息 | No | Yes | Yes |
 | [ipapi.com](https://ipapi.com/) | Real-time Geolocation & Reverse IP Lookup REST API | `apiKey` | Yes | Unknown |
 | [IPGEO](https://api.techniknews.net/ipgeo/) | Unlimited free IP Address API with useful information | No | Yes | Unknown |
 | [ipgeolocation](https://ipgeolocation.io/) | IP Geolocation AP with free plan 30k requests per month | `apiKey` | Yes | Yes |
@@ -1227,7 +1228,7 @@ A | B | C | D | E | F |
 | [Veriphone](https://veriphone.io) | Phone number validation & carrier lookup | `apiKey` | Yes | Yes |
 
 **[⬆ 跳转至目录](#目录)**
-### Photography
+### 摄影
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [apilayer screenshotlayer](https://screenshotlayer.com) | URL 2 Image | No | Yes | Unknown |
@@ -1483,10 +1484,9 @@ A | B | C | D | E | F |
 | [Yes No](https://yesno.wtf/api) | Generate yes or no randomly | No | Yes | Unknown |
 
 **[⬆ 跳转至目录](#目录)**
-### Text Analysis
+### 文本分析
 接口| 描述| Auth | HTTPS | CORS |
 |---|---|---|---|---|
-| [Code Detection API](https://codedetectionapi.runtime.dev) | Detect, label, format and enrich the code in your app or in your data pipeline | `OAuth` | Yes | Unknown |
 | [apilayer languagelayer](https://languagelayer.com/) | Language Detection JSON API supporting 173 languages | `OAuth` | Yes | Unknown |
 | [Aylien Text Analysis](https://docs.aylien.com/textapi/#getting-started) | A collection of information retrieval and natural language APIs | `apiKey` | Yes | Unknown |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | Natural language processing and text analysis | `apiKey` | Yes | Yes |
