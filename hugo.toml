@@ -6,6 +6,7 @@ hasCJKLanguage = true
 title = '洛维奇'
 theme = 'geekblog'
 
+
 #复数化列表标题
 pluralizeListTitles = false
 
@@ -13,6 +14,10 @@ pluralizeListTitles = false
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
+
+[params]
+  geekblogDarkModeDim = true
+  geekblogBackToTop = true
 
 # Needed for mermaid shortcodes
 [markup]
