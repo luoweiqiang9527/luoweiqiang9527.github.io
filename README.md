@@ -1,2 +1,2 @@
-# luoweiqiang9527.github.io
-luoweiqiang9527.github.io
+## 简介
+记录一些个人闲谈怪想，欢迎指正PR。
